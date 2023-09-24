@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">hw_1_git</string>
+    <string name="btn_start">start</string>
+    <string name="hello">Привет, это игра-квиз.\n\n
+        Напиши свое имя ниже и нажми на кнопку start</string>
+    <string name="result_1">Спасибо за игру, \n\n</string>
+    <string name="result_2">\n\nМы начисляли тебе 1 балл за каждый верный ответ.\n\n
+        Твой результат -  </string>
+</resources>
