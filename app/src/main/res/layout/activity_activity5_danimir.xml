@@ -6,4 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".Activity5Danimir">
 
+    <TextView
+        android:id="@+id/question_Danimir"
+        android:layout_width="367dp"
+        android:layout_height="156dp"
+        android:text="Как звучит нота &quot;Фа&quot;(F)"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorEdgeEffect"
+        android:textSize="60sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="384dp"
+        android:layout_height="271dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/D_button_1"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="sound1"
+            android:text="1"
+            android:textSize="24sp"
+            android:textStyle="bold|italic"
+            app:iconSize="23dp" />
+
+        <Button
+            android:id="@+id/D_button_2"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="sound2"
+            android:text="2"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/D_button_3"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="sound3"
+            android:text="3"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/D_button_4"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:onClick="sound4"
+            android:text="4"
+            android:textSize="24sp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/Number"
+        android:layout_width="272dp"
+        android:layout_height="73dp"
+        android:ems="10"
+        android:hint="Введите номер кнопки"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorEdgeEffect"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:digits="1234"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.834" />
 </androidx.constraintlayout.widget.ConstraintLayout>
