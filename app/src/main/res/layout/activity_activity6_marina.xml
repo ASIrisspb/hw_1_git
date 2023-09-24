@@ -6,4 +6,90 @@
     android:layout_height="match_parent"
     tools:context=".Activity6Marina">
 
+    <TextView
+        android:id="@+id/textViewScreen6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/text1_marina"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <ImageView
+        android:id="@+id/imageViewLogos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/apple" />
+
+    <Button
+        android:id="@+id/buttonNextScreen6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:onClick="onClickNext"
+        android:text="@string/text2_marina_button"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewLogos" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/InputLayoutScreen6"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/EditTextScreen6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/text4_marina_hint"
+            android:inputType="number"
+            android:visibility="gone" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textViewQuestionScreen6"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text_question_marina"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/InputLayoutScreen6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.874" />
+
+    <Button
+        android:id="@+id/buttonCheckScreen6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="check"
+        android:text="@string/text_button"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InputLayoutScreen6" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

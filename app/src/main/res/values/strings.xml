@@ -6,4 +6,9 @@
     <string name="result_1">Спасибо за игру, \n\n</string>
     <string name="result_2">\n\nМы начисляли тебе 1 балл за каждый верный ответ.\n\n
         Твой результат -  </string>
+    <string name="text_button">check</string>
+    <string name="text1_marina">Просмотрите следующие картинки, листая по кнопке</string>
+    <string name="text2_marina_button">дальше</string>
+    <string name="text4_marina_hint">укажите число без пробелов и запятых</string>
+    <string name="text_question_marina">На каких картинках были изображены логотипы FAANG?</string>
 </resources>
