@@ -27,10 +27,10 @@ public class Activity5Danimir extends AppCompatActivity {
         setContentView(R.layout.activity_activity5_danimir);
         name = getIntent().getExtras().getString("name");
         score = getIntent().getExtras().getInt("points");
-        B1 = MediaPlayer.create(this, R.raw.Do);
-        B2 = MediaPlayer.create(this, R.raw.Fa);
-        B3 = MediaPlayer.create(this, R.raw.Mi);
-        B4 = MediaPlayer.create(this, R.raw.Si);
+        B1 = MediaPlayer.create(this, R.raw.dn);
+        B2 = MediaPlayer.create(this, R.raw.fa);
+        B3 = MediaPlayer.create(this, R.raw.mi);
+        B4 = MediaPlayer.create(this, R.raw.si);
         number = findViewById(R.id.Number);
     }
     public void sound1(View view){
