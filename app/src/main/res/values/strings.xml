@@ -11,4 +11,5 @@
     <string name="text2_marina_button">дальше</string>
     <string name="text4_marina_hint">укажите число без пробелов и запятых</string>
     <string name="text_question_marina">На каких картинках были изображены логотипы FAANG?</string>
+    <string name="text5_marina_hint">Подсказка: FAANG - это группа самых известных компаний в Кремниевой долине</string>
 </resources>
