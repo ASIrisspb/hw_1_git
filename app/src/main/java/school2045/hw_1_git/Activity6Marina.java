@@ -23,7 +23,7 @@ public class Activity6Marina extends AppCompatActivity {
     private ImageView imgView; // объект, на котором будут сменятся картинки
     private EditText editTextAnswer;
     private Button buttonNext, buttonCheck; // кнопки для "перелистывания" img и перехода на след экр
-    private TextView textViewQuestion;
+    private TextView textViewQuestion, textViewHint;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,6 +37,7 @@ public class Activity6Marina extends AppCompatActivity {
         buttonNext = findViewById(R.id.buttonNextScreen6);
         buttonCheck = findViewById(R.id.buttonCheckScreen6);
         textViewQuestion = findViewById(R.id.textViewQuestionScreen6);
+        textViewHint = findViewById(R.id.textViewHint);
         // замена картинки на ее уменшенную версию
         imgView.setImageBitmap(Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),
                 R.drawable.apple), 500, 500, false));
@@ -64,6 +65,7 @@ public class Activity6Marina extends AppCompatActivity {
             editTextAnswer.setVisibility(View.VISIBLE);
             textViewQuestion.setVisibility(View.VISIBLE);
             buttonCheck.setVisibility(View.VISIBLE);
+            textViewHint.setVisibility(View.VISIBLE);
         } else { // создание уменьшенной картинки логотипа
             Bitmap bitmap = Bitmap.createScaledBitmap(BitmapFactory.decodeResource(getResources(),
                     logos[countClick]), 500, 500, false);

@@ -11,7 +11,7 @@
         android:layout_width="407dp"
         android:layout_height="172dp"
         android:gravity="center"
-        android:text="Что можно найти внутри каждой программы,  И оно хранит код всякой формы?  Оно управляет, как маэстро дирижер,  Без него бы код был бы как ученик новичок. "
+        android:text="1) Что можно найти внутри каждой программы,  И оно хранит код всякой формы? 2)  Оно управляет, как маэстро дирижер,  Без него бы код был бы как ученик новичок.  (2 ответа)"
         android:textSize="20sp"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"

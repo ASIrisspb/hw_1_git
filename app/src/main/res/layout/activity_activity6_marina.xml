@@ -49,12 +49,14 @@
         android:id="@+id/InputLayoutScreen6"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="300dp"
-        android:layout_height="wrap_content"
+        android:layout_height="82dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.59">
 
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/EditTextScreen6"
@@ -78,7 +80,7 @@
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.874" />
+        app:layout_constraintVertical_bias="0.696" />
 
     <Button
         android:id="@+id/buttonCheckScreen6"
@@ -91,5 +93,20 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/InputLayoutScreen6" />
+
+    <TextView
+        android:id="@+id/textViewHint"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/text5_marina_hint"
+        android:textAlignment="center"
+        android:textColor="@color/gray"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/imageViewLogos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewQuestionScreen6"
+        app:layout_constraintVertical_bias="0.634" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
