@@ -33,7 +33,7 @@ answer = otvet.getText().toString();
      if (answer.contains("да")){
          score += 1;
      }
-        Intent intent = new Intent(Activity2Varya.this, Activity3Artem.class);
+        Intent intent = new Intent(Activity2Varya.this, Activity4Dima.class);
         intent.putExtra("name", name);
         intent.putExtra("points", score);
         startActivity(intent);
